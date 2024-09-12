@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.form{
+    max-height:500px;
+    max-width: 500px;
+    border:1px solid black;
+    margin:10px;
+    padding:10px;
+    .field{
+        width:350px;
+        height: 30px;
+        padding: 10px;
+    }
+    input{
+        margin:10px 0 10px 0;
+        border-radius: 5px;
+    }
+    .submit{
+        width:120px;
+        height: 25px;
+    }
+    .error{
+        display: none;
+        color:red;
+    }
+    .done{
+        display: none;
+        color:rgb(71, 247, 71);
+    }
+}
